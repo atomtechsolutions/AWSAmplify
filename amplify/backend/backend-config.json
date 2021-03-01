@@ -16,5 +16,19 @@
         }
       }
     }
+  },
+  "auth": {
+    "amplifyapp3f72954c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "devtest": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
